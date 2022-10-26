@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(115, 179, 157);
+    height: 100vh;
+    width: auto;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    background-color: rgb(65, 65, 65);
+    height: 500px;
+    width: 400px;
+}
+
+.display{
+    background-color: black;
+    height: 100px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+.operators{
+    display: flex;
+    height: 100px;
+    width: auto;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+}
+
+.plus,
+.minus,
+.multiply,
+.divide {
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+background-color: lightslategray;
+}
+
+.digits-equals-container{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: auto;
+    background-color: azure;
+}
+
+.equals{
+    background-color: rgb(255, 170, 170);
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.seven,
+.eight,
+.nine,
+.four,
+.five,
+.six,
+.one,
+.two,
+.three,
+.zero,
+.decimal,
+.clear {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
