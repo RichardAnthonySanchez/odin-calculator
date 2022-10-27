@@ -17,10 +17,21 @@
 }
 
 .display{
-    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(53, 42, 42);
     height: 100px;
     width: auto;
     flex-shrink: 0;
+    color: antiquewhite;
+    align-items: center;
+}
+
+.display-content{
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    padding-right: 16px;
 }
 
 .operators{
@@ -39,7 +50,7 @@ display: flex;
 flex: 1;
 justify-content: center;
 align-items: center;
-background-color: lightslategray;
+background-color: rgb(117, 112, 95);
 }
 
 .digits-equals-container{
@@ -47,7 +58,7 @@ background-color: lightslategray;
     justify-content: space-between;
     height: 400px;
     width: auto;
-    background-color: azure;
+    background-color: antiquewhite;
 }
 
 .equals{
